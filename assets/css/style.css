@@ -1,0 +1,243 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f4f4fc;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero_section{
+    background: url(../../images/hero_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main_header{
+    background: transparent;
+    width: 100%;
+    position: fixed;
+}
+
+.header_wrap{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main_nav ul li{
+    margin-right: 40px;
+}
+
+.main_nav ul li:last-child{
+    margin-right: 0px;
+}
+
+.main_nav ul li a{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 2ps solid transparent;
+    transition: .3s;   
+}
+
+.main_nav ul li a:hover{
+    border-bottom: 2px solid #FFB321;
+    transition: .3s;
+}
+
+a.login{
+    text-transform: uppercase;
+    color: #F4F4FC;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 2px solid #FFB321;
+    transition: .5s ease-in-out;
+}
+
+a.login:hover{
+    color: #000000;
+    background-color: #FFB321;
+    transition: .5s ease-in-out;
+}
+
+.hero_content_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 104px;
+}
+
+.hero_title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 121px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.hero_subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 649px;
+}
+
+.hero_btn{
+    margin-top: 40px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 23.5px;
+    padding-right: 23.5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #FFB321;
+    transition: .5s ease-in-out;
+}
+
+.hero_btn:hover{
+    background: #EAA219;
+    transition: .5s ease-in-out;
+}
+
+.hero_line{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.hero_app{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero_app_item{
+    margin-right: 40px;
+}
+
+.hero_app_item:last-child{
+    margin-right: 0px;
+}
+
+.section_title{
+    margin-top: 123px;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about_content{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.video_block{
+    margin-top: 64px;
+}
+
+.video_block video{
+    width: 100%;
+    height: auto;
+}
+
+
+.advantage_item{
+    margin-top: 64px;
+    border: 2px solid #DADAE2;
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 100%;
+    height: 319px;
+    background: url(../../images/advantage-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.advantage_item img{
+    width: 100%;
+    height: auto;
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.advantage_title{
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.advantage_text{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.learn_more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn_more_btn{
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 2px solid transparent;
+    transition: .5s ease-in-out;
+}
+
+.learn_more_btn img{
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.learn_more_btn:hover{
+    transition: .5s ease-in-out;
+    border-color: #FFB321;
+}
+
