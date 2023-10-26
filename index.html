@@ -16,7 +16,7 @@
 
 <body>
     <section class="hero_section">
-        <header class="main_header">
+        <header class="main_header" id="sticky_header">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -24,14 +24,17 @@
                             <a href="#" class="logo">
                                 <img src="images/logo.png" alt="VSite">
                             </a>
+                            <a href="#" class="logo_white" id="scroll_logo">
+                                <img src="images/logo_white .png" alt="VSite">
+                            </a>
                             <nav class="main_nav">
                                 <ul>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="https://www.vgis.io/#products">Features</a></li>
+                                    <li><a href="https://www.vgis.io/ar-mr-vr-gis-vgis-team-about-us/">About Us</a></li>
                                 </ul>
                             </nav>
                             <div class="header_btn">
-                                <a href="#" class="login">Sign in</a>
+                                <a href="https://vsite.meemim.com/" class="login">Sign in</a>
                             </div>
                         </div>
                     </div>
@@ -46,14 +49,16 @@
                             <h1 class="hero_title">Jobsite Visibility Redefined</h1>
                             <p class="hero_subtitle">Connected Construction Platform: a better way to manage your
                                 project with fewer errors, delays, and less rework.</p>
-                            <a href="#" class="hero_btn">Book demo</a>
+                            <button type="button" class="hero_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Book demo
+                              </button>
                             <img class="hero_line" src="images/hero_line.png" alt="line">
                             <div class="hero_app">
-                                <a class="hero_app_item" href="#" target="_blank"><img src="images/App_Store.png"
+                                <a class="hero_app_item" href="https://itunes.apple.com/us/app/vgis-utilities/id1325123179 " target="_blank"><img src="images/App_Store.png"
                                         alt="App_Store"></a>
-                                <a class="hero_app_item" href="#" target="_blank"><img src="images/Google_play.png"
+                                <a class="hero_app_item" href="https://play.google.com/store/apps/details?id=com.meemim.vgis&hl=en" target="_blank"><img src="images/Google_play.png"
                                         alt="Google_play"></a>
-                                <a class="hero_app_item" href="#" target="_blank"><img src="images/Microsoft.png"
+                                <a class="hero_app_item" href="https://www.microsoft.com/en-us/p/vgis-utilities/9mzm81qnj523" target="_blank"><img src="images/Microsoft.png"
                                         alt="Microsoft"></a>
                             </div>
                         </div>
@@ -112,7 +117,7 @@
                 </div>
             </div>
             <div class="learn_more">
-                <a href="#" class="learn_more_btn">
+                <a href="https://www.vgis.io/" class="learn_more_btn">
                     <img src="images/learn_more.svg" alt="learn more">
                     <span>learn more</span>
                 </a>
@@ -371,6 +376,7 @@
         </div>
     </section>
     <section class="testimonials">
+        <img class="silver_bg" src="images/testimonial-img-bg.png" alt="">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -393,7 +399,6 @@
                 </div>
                 <div class="col-md-6">
                     <div class="testimonial_autor">
-                        <img class="silver_bg" src="images/testimonial-img-bg.png" alt="">
                         <img src="images/testimonial-autor.jpg" alt="John Doe">
                     </div>
                 </div>
@@ -437,16 +442,90 @@
                                 <a href="https://www.instagram.com/vgis_map/" target="_blank" class="social_item">
                                     <i class="fa fa-instagram" aria-hidden="true"></i>
                                 </a>
-                                <a href="#" target="_blank" class="social_item">
-                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                <a href="https://www.youtube.com/c/vGISInc" target="_blank" class="social_item">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
                                 </a>
                             </div>
+                        </div>
+                        <div class="footer_navs">
+                            <nav class="footer_menu footer_about">
+                                <ul>
+                                    <li><a class="main_item" href="https://www.vgis.io/ar-mr-vr-gis-vgis-team-about-us/">About vgis</a></li>
+                                    <li><a href="https://www.vgis.io/ar-mr-vr-gis-vgis-team-contact-us/">Contact Us</a></li>
+                                    <li><a href="https://support.vgis.io/hc/en-us">vGIS Support Center</a></li>
+                                    <li><a href="https://support.vgis.io/hc/en-us/requests/new">Submit Support Request</a></li>
+                                </ul>
+                            </nav>
+                            <nav class="footer_menu footer_product">
+                                <ul>
+                                    <li><a class="main_item" href="https://www.vgis.io/#products">Products</a></li>
+                                    <li><a href="https://www.vgis.io/augmented-reality-bim-gis-ar-aec-civil-construction-productivity-engineering-grade-mr-mixed-reality/">vGIS Augmented Reality</a></li>
+                                    <li><a href="https://www.vgis.io/ar-augmented-reality-lidar-reality-capture-iphone-ipad-bentley-esri-autodesk-hexagon/">vGIS Reality Capture</a></li>
+                                    <li><a href="https://www.vgis.io/gis-ar-microsoft-hololens-esri-augmented-reality-utilities-infrastructure-bim-mixed-reality-mr-cad-autodesk-bentley-microstation/">vGIS for HoloLens</a></li>
+                                    <li><a href="https://www.vgis.io/augmented-reality-gis-data-collection-surveying-ar-esri-collector-zeno-mobile-field-maps/m">Equipment Deals</a></li>
+                                </ul>
+                            </nav>
+                            <nav class="footer_menu footer_Resources">
+                                <ul>
+                                    <li><a class="main_item" href="#">Resources</a></li>
+                                    <li><a href="https://www.vgis.io/ar-mr-vr-gis-vgis-team-blog-news-industry/">News and Blogs</a></li>
+                                    <li><a href="https://support.vgis.io/hc/en-us/sections/360004417653-FAQ">FAQ</a></li>
+                                    <li><a href="https://www.vgis.io/remote-assistance-with-ar-augmented-reality-mixed-reality-bim-gis-reality-capture-vgis/">vGIS Remote Assistance</a></li>
+                                    <li><a href="https://www.vgis.io/vgis-supported-devices-augmented-reality-for-gis/">vGIS-Compatible Devices</a></li>
+                                    <li><a href="https://www.vgis.io/top-hardware-augmented-reality-ar-tablets-phones-hololens-apple-samsung-iphone-12-ipad-pro/">Recommended Equipment</a></li>
+                                    <li><a href="https://www.vgis.io/augmented-reality-gis-data-collection-surveying-ar-esri-collector-zeno-mobile-field-maps/">Data collection with AR</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer_app">
+                            <a class="hero_app_item" href="https://itunes.apple.com/us/app/vgis-utilities/id1325123179" target="_blank"><img src="images/App_Store.png" alt="App_Store"></a>
+                            <a class="hero_app_item" href="https://play.google.com/store/apps/details?id=com.meemim.vgis&hl=en" target="_blank"><img src="images/Google_play.png" alt="Google_play"></a>
+                            <a class="hero_app_item" href="https://www.microsoft.com/en-us/p/vgis-utilities/9mzm81qnj523" target="_blank"><img src="images/Microsoft.png" alt="Microsoft"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+   <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal_title" id="exampleModalLabel">Book Demo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="modal_form" action="" method="get">
+                <label for="fname">First and Last name</label><br>
+                <input type="text" required id="fname" name="fname" placeholder="First and Last name *">
+                <label for="email">Email</label><br>
+                <input type="email" required id="email" name="email" placeholder="Email Address*">
+                <label for="company">Company</label><br>
+                <input type="text" id="company" name="company" placeholder="Company">
+                <button type="submit" data-bs-toggle="modal" data-bs-target="#thanks">Book demo</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="thanks" tabindex="-1" aria-labelledby="thanks" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal_title" id="exampleModalLabel">Success</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="success_wrap">
+                <img class="success_icon" src="images/check.svg" alt="Check">
+                <p class="success_text">Demo successfully booked!</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
